@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body {
+    background: rgb(217, 215, 215);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Comfortaa', cursive;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: -6px 5px 15px black;
+}
+
+.info {
+    color: brown;
+    font-style: italic;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.container {
+    max-width: 1020px;
+    margin: auto;
+}
+
+ .sites {
+margin-bottom: 20px;
+}
+
+
+a {
+    color: rgb(236, 25, 148);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:red
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.bg-yellow {
+    background: rgb(226, 226, 100);
+}
+
+.bg-green {
+    background: rgb(98, 207, 98);
+}
+
+.bg-red {
+    background: rgb(226, 112, 112);
+}
+
+.table td {
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
